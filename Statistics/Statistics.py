@@ -1,8 +1,8 @@
 from Calculator.Calculator import Calculator
-from Stats.Mean import mean
+from Statistics.Mean import mean
 
 
-class Stats(Calculator):
+class Statistics(Calculator):
     data = []
 
     def __int__(self):
