@@ -5,8 +5,8 @@ from CsvReader.CsvReader3 import getFileData
 class MyTestCase(unittest.TestCase):
     def setUp(self) -> None:
         self.statistics = Statistics()
-        test_answer = getFileData('Tests/Data/UnitTestStatistics.csv').data
-        sample_data = getFileData('Tests/Data/TestSampleData.csv').data
+    test_answer = getFileData('Tests/Data/UnitTestStatistics.csv').data
+    sample_data = getFileData('Tests/Data/TestDataSample.csv').data
 
     def test_instantiate_calculator(self):
         self.assertIsInstance(self.statistics, Statistics)
