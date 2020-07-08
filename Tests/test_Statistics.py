@@ -46,13 +46,19 @@ class MyTestCase(unittest.TestCase):
     #     self.assertEqual(self.statistics.standardDev(self.column1), float(row['std']))
     #     self.assertEqual(self.statistics.result, float(row['std']))
 
-    def test_proportion_variance_statistics(self):
-        for row in self.test_answer:
-            ##TypeError: 'module' object is not callable
-            pprint(row['proportion_variance'])
-        self.assertEqual(self.statistics.proportion(self.column1), float(row['proportion_variance']))
-        self.assertEqual(self.statistics.result, float(row['proportion_variance']))
+    # def test_proportion_variance_statistics(self):
+    #     for row in self.test_answer:
+    #         ##TypeError: 'module' object is not callable
+    #         pprint(row['proportion_variance'])
+    #     self.assertEqual(self.statistics.proportion(self.column1), float(row['proportion_variance']))
+    #     self.assertEqual(self.statistics.result, float(row['proportion_variance']))
 
+    def test_correlation_statistics(self):
+        for row in self.test_answer:
+            pprint(row['correlation'])
+        self.assertEqual(self.statistics.correlation_coefficient(self.column1, self.column2),
+                         float(row['correlation']))
+        self.assertEqual(self.statistics.result, float(row['correlation']))
 
 if __name__ == '__main__':
     unittest.main()

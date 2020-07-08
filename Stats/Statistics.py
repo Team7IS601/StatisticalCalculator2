@@ -4,6 +4,7 @@ from Stats.Median import median
 from Stats.Mode import mode
 from Stats.Proportion import proportion
 from Stats.StandardDeviation import standardDev
+from Stats.CorrelationCoefficient import correlation
 
 class Statistics(Calculator):
     data = []
@@ -30,4 +31,8 @@ class Statistics(Calculator):
 
     def proportion(self, data):
         self.result = proportion(data)
+        return self.result
+
+    def correlation_coefficient(self, data, data1):
+        self.result = correlation(data, data1)
         return self.result
