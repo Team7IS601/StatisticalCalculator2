@@ -1,5 +1,5 @@
 import unittest
-import pprint
+from pprint import pprint
 from Stats.Statistics import Statistics
 from CsvReader.CsvReader3 import getFileData
 
@@ -12,8 +12,9 @@ class MyTestCase(unittest.TestCase):
     sample_data = getFileData('Tests/Data/TestDataSample.csv').data
     column1 = [int(row['Value 1']) for row in test_data]
     column2 = [int(row['Value 2']) for row in test_data]
-    column_zscore = [float(row['Z-Score']) for row in zscoreanswers]
     zscoreanswers = getFileData('Tests/Data/TestZScoresAnswers.csv').data
+    column_zscore = [float(row['Z-Score']) for row in zscoreanswers]
+
 
     def test_instantiate_calculator(self):
         self.assertIsInstance(self.statistics, Statistics)
@@ -24,12 +25,12 @@ class MyTestCase(unittest.TestCase):
             result = 'mean'
             self.assertEqual(self.statistics.mean(self.data, result))
 
-    # def test_median_statistics(self):
-    #     test_data = getFileData('Tests/Data/UnitTestStatistics.csv')
-    #     for row in test_data:
-    #         pprint(row["median"])
-    #         self.assertEqual(self.statistics.median(self.column1), float(row['median']))
-    #         self.assertEqual(self.statistics.result, float(row['median']))
+    def test_median_statistics(self):
+        test_data = getFileData('Tests/Data/UnitTestStatistics.csv').data
+        for row in test_data:
+            pprint(row["median"])
+            self.assertEqual(self.statistics.median(self.column1), float(row['median']))
+            self.assertEqual(self.statistics.result, float(row['median']))
 
 
 #     def test_mode_statistics(self):
@@ -65,9 +66,9 @@ class MyTestCase(unittest.TestCase):
     #                      float(row['correlation']))
     #     self.assertEqual(self.statistics.result, float(row['correlation']))
 
-    def test_pvalue_statistics(self):
-        self.assertEqual(self.statistics.p_value(self.column1), self.column_zscore)
-        self.assertEqual(self.statistics.result, self.column_zscore)
+    # def test_pvalue_statistics(self):
+    #     self.assertEqual(self.statistics.p_value(self.column1), self.column_zscore)
+    #     self.assertEqual(self.statistics.result, self.column_zscore)
 
 
 if __name__ == '__main__':
