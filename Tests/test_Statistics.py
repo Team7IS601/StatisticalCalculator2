@@ -37,16 +37,18 @@ class MyTestCase(unittest.TestCase):
 #         self.assertEqual(self.statistics.mode(self.column1), float(row['mode']))
 #         self.assertEqual(self.statistics.result, float(row['mode']))
 
-###AttributeError: 'MyTestCase' object has no attribute 'pprint'
+###ATypeError: 'module' object is not callable
 
     # def test_standard_deviation_statistics(self):
     #     for row in self.test_answer:
     #         pprint(row["std"])
+    #         ###ATypeError: 'module' object is not callable
     #     self.assertEqual(self.statistics.standardDev(self.column1), float(row['std']))
     #     self.assertEqual(self.statistics.result, float(row['std']))
 
     def test_proportion_variance_statistics(self):
         for row in self.test_answer:
+            ##TypeError: 'module' object is not callable
             pprint(row['proportion_variance'])
         self.assertEqual(self.statistics.proportion(self.column1), float(row['proportion_variance']))
         self.assertEqual(self.statistics.result, float(row['proportion_variance']))
