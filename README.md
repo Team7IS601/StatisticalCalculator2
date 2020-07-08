@@ -5,7 +5,7 @@ Statistical Calculator Group Project #2
 Created by: Adam Adamson, Michael Maddaloni, and Ryan Melnik
 
 # Project Chart
-https://github.com/Team7IS601/StatisticalCalculator2/projects/1
+https://github.com/Team7IS601/StatisticalCalculator2/projects/1?fullscreen=true
 
 # Project Task List
 
