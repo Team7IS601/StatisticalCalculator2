@@ -36,3 +36,7 @@ class Statistics(Calculator):
     def correlation_coefficient(self, data, data1):
         self.result = correlation(data, data1)
         return self.result
+
+    def zscore(self, data):
+        self.result = zscore(data)
+        return self.result
