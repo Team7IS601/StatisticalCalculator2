@@ -9,6 +9,7 @@ class MyTestCase(unittest.TestCase):
         self.statistics = Statistics()
         self.unit_test_statistics_answer = getFileData('Tests/Data/UnitTestStatisticsAnswers.csv').data
         self.test_data_mean = getFileData('Tests/Data/Test_Data_Mean.csv').data
+        self.test_data_median = getFileData('Tests/Data/Test_Data_Median.csv').data
         self.unit_test_statistics = getFileData('Tests/Data/UnitTestStatistics.csv').data
         self.test_data_sample = getFileData('Tests/Data/TestDataSample.csv').data
         # self.column1 = [int(row['Value 1']) for row in self.test_data]
@@ -22,24 +23,25 @@ class MyTestCase(unittest.TestCase):
 
     def test_mean_statistics(self):
         for row in self.test_data_mean:
-            print(row)
             result = row["Mean"]
             data = []
-            print(result)
-            data.append(row['Value1'])
-            data.append(row['Value2'])
-            data.append(row['Value3'])
-            data.append(row['Value4'])
-            data.append(row['Value5'])
-            data.append(row['Value6'])
-            print(data)
-            self.assertEqual(self.statistics.mean(data), result)
+            keys = row.keys()
+            for k in keys:
+                if k != "Mean":
+                    data.append(row[k])
+            self.assertEqual(self.statistics.mean(data), float(result))
+        print("Mean Test Passed")
 
     def test_median_statistics(self):
-        for row in self.unit_test_data:
-            pprint(row["median"])
-            self.assertEqual(self.statistics.median(self.column1), float(row['median']))
-            self.assertEqual(self.statistics.result, float(row['median']))
+        for row in self.test_data_median:
+            result = row["Median"]
+            data = []
+            keys = row.keys()
+            for k in keys:
+                if k != "Median":
+                    data.append(row[k])
+            self.assertEqual(self.statistics.median(data), float(result))
+        print("Median Test Passed")
 
 
     def test_mode_statistics(self):

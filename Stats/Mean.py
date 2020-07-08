@@ -7,4 +7,4 @@ def mean(data):
     total = 0
     for num in data:
         total = addition(total, num)
-    return division(num_values, total)
+    return round(division(num_values, total), 1)
