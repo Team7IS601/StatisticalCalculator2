@@ -14,8 +14,8 @@ class Statistics(Calculator):
         super().__int__()
 
 
-    def mean(self):
-        self.result = mean(self.data)
+    def mean(self, data):
+        self.result = mean(data)
         return self.result
 
     def median(self, data):
