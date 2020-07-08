@@ -7,3 +7,5 @@
 - The only situation in which you should use a one sided P value is when a large change in an unexpected direction would have absolutely no relevance to your study. This situation is unusual; if you are in any doubt then use a two sided P value.
  
 - The term significance level (alpha) is used to refer to a pre-chosen probability and the term "P value" is used to indicate a probability that you calculate after a given study.
+
+https://www.statsdirect.com/help/basics/p_values.htm
