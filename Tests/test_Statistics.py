@@ -15,6 +15,14 @@ class MyTestCase(unittest.TestCase):
             result = 'mean'
             self.assertEqual(self.statistics.mean(self.data, result))
 
+    # def test_median_statistics(self):
+    #     test_data = getFileData('Tests/Data/UnitTestStatistics.csv')
+    #     for row in test_data:
+    #         pprint(row["median"])
+    #         self.assertEqual(self.statistics.median(self.column1), float(row['median']))
+    #         self.assertEqual(self.statistics.result, float(row['median']))
+
+
 
 if __name__ == '__main__':
     unittest.main()
