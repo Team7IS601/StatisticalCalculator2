@@ -1,39 +1,16 @@
-### What is a Mean?
+### Sample Mean Formula
+The sample mean formula is:
 
-The **mean** is the average of a data set.
+x̄ = ( Σ xi ) / n
 
-### The Mean Formula
+If that looks complicated, it’s simpler than you think (although check out our tutoring page if you need help!). Remember the formula to find an “average” in basic math? It’s the exact same thing, only the notation (i.e. the symbols) are just different. Let’s break it down into parts:
 
-    Mean = (The sum of a list of numbers) / (The total count of numbers in list)
+x̄ just stands for the “sample mean”
+Σ is summation notation, which means “add up”
+xi “all of the x-values”
+n means “the number of items in the sample”
+Now it’s just a matter of plugging in numbers that you’re given and solving using arithmetic (there’s no algebra required—you can basically plug this in to any calculator).
 
-### Example Equation
-
-You are asked to find the mean age of a group of 5 students.  Their ages are 19, 21, 32, 18, and 25.
-
-#### Step 1
-Enter the ages of the students into the mean equation and add them together
-
-    Mean = (19 + 21 + 32 + 18 + 25) / (Total count of numbers in list)
-    
-#### Step 2
-Enter the total count of the students you calculating the mean of (5).
-
-    Mean = (115) / (5)
-    
-#### Step 3
-Calculate the mean age of the group of students.
-
-    Mean = 23
-    
-**23 years** is the average age of the group.
-
-### Functions Used in Mean Equation
-
- * Calculator
-   * Addition
-   * Division
-
-
-[Link to Statisticshowto.com](https://www.statisticshowto.com/probability-and-statistics/statistics-definitions/mean-median-mode/)
-
-[Back to Index](README.md)
+### You might see the following alternate sample mean formula:
+x̄ = 1/ n * ( Σ xi )
+The set up is slightly different, but algebraically it’s the same formula (if you simplify the formula 1/n * X, you get 1/X).
