@@ -1,5 +1,7 @@
 from Calculator.Addition import addition
 
+
+
 def mode(num):
     counter = {}
     for n in num:
@@ -14,3 +16,4 @@ def mode(num):
             maxCount = counter[k]
             result = k
     return result
+
