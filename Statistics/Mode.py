@@ -1,7 +1,5 @@
 from Calculator.Addition import addition
 
-
-
 def mode(num):
     counter = {}
     for n in num:
