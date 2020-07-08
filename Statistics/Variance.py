@@ -1,8 +1,9 @@
+from Stats.Mean import mean
 from Calculator.Square import square
 from Calculator.Division import division
 from Calculator.Subtraction import subtraction
 from Calculator.Addition import addition
-from Stats.Mean import mean
+
 
 def variance(num):
     mean = mean(num)
