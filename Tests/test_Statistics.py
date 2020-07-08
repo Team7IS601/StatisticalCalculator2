@@ -10,7 +10,7 @@ class MyTestCase(unittest.TestCase):
         self.assertIsInstance(self.statistics, Statistics)
 
     def test_mean_statistics(self):
-        test_data = getFileData('Tests/Data/UnitTestStats.csv').data
+        test_data = getFileData('Tests/Data/UnitTestStatistics.csv').data
         for row in test_data:
             result = 'mean'
             self.assertEqual(self.statistics.mean(self.data, result))
