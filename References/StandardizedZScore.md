@@ -1,9 +1,7 @@
 ### What is a Z-Score?
 
-A Z-Score gives you an idea of how far from the **mean** a data point is.
-
-It is a measure of how many **standard deviations** below or above the population mean a raw score is.
-
+ A z-score (also called a standard score) gives you an idea of how far from the mean a data point is.
+ 
 ### The Z-Score Formula
 
     z = (x – μ) / σ
