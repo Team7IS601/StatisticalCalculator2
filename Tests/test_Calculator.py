@@ -29,12 +29,8 @@ class MyTestCase(unittest.TestCase):
         print("Start addition test")
         test_data = getFileData('/Tests/Data/UnitTestAddition.csv').data
         for row in test_data:
-            print(row)
-            value1 = int(row[0])
-            value2 = int(row[1])
-            result = int(row[2])
-            self.assertEqual(self.calculator.add(value1, value2), result)
-            self.assertEqual(self.calculator.result, result)
+            self.assertEqual(self.calculator.add(row['Value 1'], row['Value 2']), int(row['Result']))
+            self.assertEqual(self.calculator.result, int(row['Result']))
 
 ## Part 3 - Multiplcation
     def test_multiplication_calulator(self):
