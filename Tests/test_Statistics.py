@@ -8,8 +8,8 @@ class MyTestCase(unittest.TestCase):
     test_answer = getFileData('Tests/Data/UnitTestStatistics.csv').data
     test_data = getFileData('Tests/Data/TestData.csv').data
     sample_data = getFileData('Tests/Data/TestDataSample.csv').data
-    column1 = [int(row['value1']) for row in test_data]
-    column2 = [int(row['value2']) for row in test_data]
+    column1 = [int(row['Value 1']) for row in test_data]
+    column2 = [int(row['Value 2']) for row in test_data]
 
     def test_instantiate_calculator(self):
         self.assertIsInstance(self.statistics, Statistics)
