@@ -35,7 +35,11 @@ class MyTestCase(unittest.TestCase):
 #         self.assertEqual(self.statistics.mode(self.column1), float(row['mode']))
 #         self.assertEqual(self.statistics.result, float(row['mode']))
 
-
+    def test_standard_deviation_statistics(self):
+        for row in self.test_answer:
+            pprint(row["standardDev"])
+        self.assertEqual(self.statistics.StandardDev(self.column1), float(row['standardDev']))
+        self.assertEqual(self.statistics.result, float(row['standardDev']))
 
 
 if __name__ == '__main__':

@@ -23,3 +23,7 @@ class Statistics(Calculator):
     def mode(self, data):
         self.result = mode(data)
         return self.result
+
+    def standardDev(self, data):
+        self.result = standardDev(data)
+        return self.result
