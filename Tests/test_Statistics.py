@@ -7,6 +7,8 @@ class MyTestCase(unittest.TestCase):
         self.statistics = Statistics()
     test_answer = getFileData('Tests/Data/UnitTestStatistics.csv').data
     sample_data = getFileData('Tests/Data/TestDataSample.csv').data
+    column1 = [int(row['value1']) for row in test_data]
+    column2 = [int(row['value2']) for row in test_data]
 
     def test_instantiate_calculator(self):
         self.assertIsInstance(self.statistics, Statistics)
@@ -27,11 +29,11 @@ class MyTestCase(unittest.TestCase):
 #Error:
     ##AttributeError: 'MyTestCase' object has no attribute 'column1'
 
-    # def test_mode_statistics(self):
-    #     for row in self.test_answer:
-    #         pprint(row["mode"])
-    #     self.assertEqual(self.statistics.mode(self.column1), float(row['mode']))
-    #     self.assertEqual(self.statistics.result, float(row['mode']))
+    def test_mode_statistics(self):
+        for row in self.test_answer:
+            pprint(row["mode"])
+        self.assertEqual(self.statistics.mode(self.column1), float(row['mode']))
+        self.assertEqual(self.statistics.result, float(row['mode']))
 
 
 
