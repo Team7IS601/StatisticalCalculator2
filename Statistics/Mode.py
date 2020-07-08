@@ -14,4 +14,3 @@ def mode(num):
             maxCount = counter[k]
             result = k
     return result
-
