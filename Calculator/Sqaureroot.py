@@ -1,3 +1,4 @@
+import math
 def sqrt(a):
     x = float(a)
     y = math.sqrt(x)
