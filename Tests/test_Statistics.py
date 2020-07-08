@@ -6,6 +6,7 @@ class MyTestCase(unittest.TestCase):
     def setUp(self) -> None:
         self.statistics = Statistics()
     test_answer = getFileData('Tests/Data/UnitTestStatistics.csv').data
+    test_data = getFileData('Tests/Data/TestData.csv').data
     sample_data = getFileData('Tests/Data/TestDataSample.csv').data
     column1 = [int(row['value1']) for row in test_data]
     column2 = [int(row['value2']) for row in test_data]
@@ -26,8 +27,6 @@ class MyTestCase(unittest.TestCase):
     #         self.assertEqual(self.statistics.median(self.column1), float(row['median']))
     #         self.assertEqual(self.statistics.result, float(row['median']))
 
-#Error:
-    ##AttributeError: 'MyTestCase' object has no attribute 'column1'
 
     def test_mode_statistics(self):
         for row in self.test_answer:
