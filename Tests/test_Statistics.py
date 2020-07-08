@@ -1,4 +1,5 @@
 import unittest
+import pprint
 from Stats.Statistics import Statistics
 from CsvReader.CsvReader3 import getFileData
 
@@ -37,9 +38,9 @@ class MyTestCase(unittest.TestCase):
 
     def test_standard_deviation_statistics(self):
         for row in self.test_answer:
-            pprint(row["standardDev"])
-        self.assertEqual(self.statistics.StandardDev(self.column1), float(row['standardDev']))
-        self.assertEqual(self.statistics.result, float(row['standardDev']))
+            pprint(row["std"])
+        self.assertEqual(self.statistics.standardDev(self.column1), float(row['std']))
+        self.assertEqual(self.statistics.result, float(row['std']))
 
 
 if __name__ == '__main__':
