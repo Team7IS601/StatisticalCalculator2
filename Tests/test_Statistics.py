@@ -5,7 +5,7 @@ from CsvReader.CsvReader3 import getFileData
 class MyTestCase(unittest.TestCase):
     def setUp(self) -> None:
         self.statistics = Statistics()
-    test_answer = getFileData('Tests/Data/UnitTestStatistics.csv').data
+    test_answer = getFileData('Tests/Data/UnitTestStatisticsAnswers.csv').data
     test_data = getFileData('Tests/Data/TestData.csv').data
     sample_data = getFileData('Tests/Data/TestDataSample.csv').data
     column1 = [int(row['Value 1']) for row in test_data]
