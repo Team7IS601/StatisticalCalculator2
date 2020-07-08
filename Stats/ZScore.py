@@ -9,5 +9,5 @@ def zscore(num):
     result = []
     for n in num:
         value = division(subtraction(n, m), sd)
-        result.append(round(value, 6))
+        result.append(round(value, 2))
     return result

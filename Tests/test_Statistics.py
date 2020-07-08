@@ -65,7 +65,9 @@ class MyTestCase(unittest.TestCase):
     #                      float(row['correlation']))
     #     self.assertEqual(self.statistics.result, float(row['correlation']))
 
-
+    def test_pvalue_statistics(self):
+        self.assertEqual(self.statistics.p_value(self.column1), self.column_zscore)
+        self.assertEqual(self.statistics.result, self.column_zscore)
 
 
 if __name__ == '__main__':
