@@ -3,6 +3,7 @@ import pprint
 from Stats.Statistics import Statistics
 from CsvReader.CsvReader3 import getFileData
 
+
 class MyTestCase(unittest.TestCase):
     def setUp(self) -> None:
         self.statistics = Statistics()
@@ -36,11 +37,19 @@ class MyTestCase(unittest.TestCase):
 #         self.assertEqual(self.statistics.mode(self.column1), float(row['mode']))
 #         self.assertEqual(self.statistics.result, float(row['mode']))
 
-    def test_standard_deviation_statistics(self):
+###AttributeError: 'MyTestCase' object has no attribute 'pprint'
+
+    # def test_standard_deviation_statistics(self):
+    #     for row in self.test_answer:
+    #         pprint(row["std"])
+    #     self.assertEqual(self.statistics.standardDev(self.column1), float(row['std']))
+    #     self.assertEqual(self.statistics.result, float(row['std']))
+
+    def test_proportion_variance_statistics(self):
         for row in self.test_answer:
-            pprint(row["std"])
-        self.assertEqual(self.statistics.standardDev(self.column1), float(row['std']))
-        self.assertEqual(self.statistics.result, float(row['std']))
+            pprint(row['proportion_variance'])
+        self.assertEqual(self.statistics.proportion(self.column1), float(row['proportion_variance']))
+        self.assertEqual(self.statistics.result, float(row['proportion_variance']))
 
 
 if __name__ == '__main__':

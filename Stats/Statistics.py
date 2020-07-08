@@ -2,8 +2,8 @@ from Calculator.Calculator import Calculator
 from Stats.Mean import mean
 from Stats.Median import median
 from Stats.Mode import mode
-
-
+from Stats.Proportion import proportion
+from Stats.StandardDeviation import standardDev
 
 class Statistics(Calculator):
     data = []
@@ -26,4 +26,8 @@ class Statistics(Calculator):
 
     def standardDev(self, data):
         self.result = standardDev(data)
+        return self.result
+
+    def proportion(self, data):
+        self.result = proportion(data)
         return self.result
