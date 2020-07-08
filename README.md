@@ -3,4 +3,4 @@
 # Statistical Calculator 
 Statistical Calculator Group Project 2
 
-#Created by: Adam Adamson, Michael Maddaloni, and Ryan Melnik
+# Created by: Adam Adamson, Michael Maddaloni, and Ryan Melnik
