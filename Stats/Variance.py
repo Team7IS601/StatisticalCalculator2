@@ -4,13 +4,17 @@ from Calculator.Division import division
 from Calculator.Subtraction import subtraction
 from Calculator.Addition import addition
 
-
 def variance(num):
-    mean = mean(num)
-    total = 0
+    Mean_var = mean(num)
+
+    Man = []
     for n in num:
-        difference = subtraction(n, mean)
-        square = square(difference)
-        total = addition(total, square)
-    result = division(total, len(num))
-    return result
+        Variables = subtraction(n, Mean_var)
+        Man.append(Variables)
+
+    Squares = []
+    for Variables in Man:
+        Square_var = square(Variables)
+        Squares.append(Square_var)
+
+    return mean(Squares)

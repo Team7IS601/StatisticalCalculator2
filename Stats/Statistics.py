@@ -5,6 +5,7 @@ from Stats.Mode import mode
 from Stats.Proportion import proportion
 from Stats.StandardDeviation import standardDev
 from Stats.CorrelationCoefficient import correlation
+from Stats.Variance import variance
 from Stats.ZScore import zscore
 
 class Statistics(Calculator):
@@ -40,6 +41,10 @@ class Statistics(Calculator):
 
     def zscore(self, data):
         self.result = zscore(data)
+        return self.result
+
+    def variance(self, data):
+        self.result = variance(data)
         return self.result
 
     def p_value(self, data):

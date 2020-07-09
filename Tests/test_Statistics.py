@@ -10,8 +10,11 @@ class MyTestCase(unittest.TestCase):
         self.unit_test_statistics_answer = getFileData('Tests/Data/UnitTestStatisticsAnswers.csv').data
         self.test_data_mean = getFileData('Tests/Data/Test_Data_Mean.csv').data
         self.test_data_median = getFileData('Tests/Data/Test_Data_Median.csv').data
+        self.test_data_mode = getFileData('Tests/Data/Test_Data_Mode.csv').data
         self.unit_test_statistics = getFileData('Tests/Data/UnitTestStatistics.csv').data
         self.test_data_sample = getFileData('Tests/Data/TestDataSample.csv').data
+        self.test_data_variance = getFileData('Tests/Data/Test_Data_Variance.csv').data
+        self.test_data_standardDev = getFileData('Tests/Data/Test_Data_StandardDeviation.csv').data
         # self.column1 = [int(row['Value 1']) for row in self.test_data]
         # self.column2 = [int(row['Value 2']) for row in self.test_data]
         # self.test_zscore_answers = getFileData('Tests/Data/TestZScoresAnswers.csv').data
@@ -45,27 +48,39 @@ class MyTestCase(unittest.TestCase):
 
 
     def test_mode_statistics(self):
-        for row in self.test_answer:
-            pprint(row["mode"])
-####UnboundLocalError: local variable 'row' referenced before assignment
-        self.assertEqual(self.statistics.mode(self.column1), float(row['mode']))
-        self.assertEqual(self.statistics.result, float(row['mode']))
+        for row in self.test_data_mode:
+            result = row["Mode"]
+            data = []
+            keys = row.keys()
+            for k in keys:
+                if k != "Mode":
+                    data.append(row[k])
+            self.assertEqual(self.statistics.mode(data), float(result))
+        print("Mode Test Passed")
 
-###ATypeError: 'module' object is not callable
+    def test_proportion_variance_statistics(self):
+        for row in self.test_data_variance:
+            result = row["Variance"]
+            data = []
+            keys = row.keys()
+            for k in keys:
+                if k != "Variance":
+                    data.append(row[k])
+            self.assertEqual(self.statistics.variance(data), float(result))
+        print("Variance Test Passed")
 
     # def test_standard_deviation_statistics(self):
-    #     for row in self.test_answer:
-    #         pprint(row["std"])
-    #         ###ATypeError: 'module' object is not callable
-    #     self.assertEqual(self.statistics.standardDev(self.column1), float(row['std']))
-    #     self.assertEqual(self.statistics.result, float(row['std']))
+    #     for row in self.test_data_standardDev:
+    #         result = row["StandardDev"]
+    #         data = []
+    #         keys = row.keys()
+    #         for k in keys:
+    #             if k != "StandardDev":
+    #                 data.append(row[k])
+    #         self.assertEqual(self.statistics.standardDev(data), float(result))
+    #     print("Standard Deviation Test Passed")
 
-    # def test_proportion_variance_statistics(self):
-    #     for row in self.test_answer:
-    #         ##TypeError: 'module' object is not callable
-    #         pprint(row['proportion_variance'])
-    #     self.assertEqual(self.statistics.proportion(self.column1), float(row['proportion_variance']))
-    #     self.assertEqual(self.statistics.result, float(row['proportion_variance']))
+
 
     # NameError: name
     # 'zscoreanswers' is not defined

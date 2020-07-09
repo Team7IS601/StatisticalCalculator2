@@ -13,4 +13,4 @@ def mode(num):
         if counter[k] > maxCount:
             maxCount = counter[k]
             result = k
-    return result
+    return float(result)
