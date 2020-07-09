@@ -122,38 +122,31 @@ Random Generator Function
       1. Methods
         1. 2 numbers
         2. List of numbers
-
     II. How to find a sample size given a confidence interval and width (unknown population standard 
       deviation) - call static confidence interval method
       1. Methods
         1. 2 numbers
         2. List of numbers
-
     III. Mean
       1. Methods
         1. 2 numbers
         2. List of numbers
-
     IV. Median
       1. Methods
         1. 2 numbers
         2. List of numbers
-
     V. Mode
       1. Methods
         1. 2 numbers
         2. List of numbers
-
     VI. Variance
       1. Methods
         1. 2 numbers
         2. List of numbers
-
     VII. Standard deviation
       1. Methods
         1. 2 numbers
         2. List of numbers
-
     VII. Z- Score
       1. Methods
         1. 2 numbers
