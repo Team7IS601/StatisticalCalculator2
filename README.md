@@ -75,8 +75,8 @@ Random Generator Functions
 
  Math Operations (Static Class)  
     1. Methods  
-        1. Addition -; Calls addition static method from math operations  
-        2. Subtraction -\&gt; Call subtraction static method from Math operations  
+        1. Addition - Calls addition static method from math operations  
+        2. Subtraction - Call subtraction static method from Math operations  
         3. Multiplication - call multiplication static method form Math operations  
         4. Division - call division static method from Math operations  
         5. Square root - call square root static method from math operations  
@@ -106,74 +106,3 @@ Random Generator Function
       5. Selector with seed: Set a seed and randomly.select the same value from a list  
       6. Selector with count: Select N number of items from a list without a seed  
       7. Selector with count:  N number of items from a list with a seed  
-
-  1. Individual Operations class(s)
-    1. Addition
-      1. Methods
-        1. Sum 1 numbers
-        2. Sum List of numbers
-    2. Subtraction
-      1. Methods
-        1. Subtract 2 numbers
-        2. Subtract List of numbers
-    3. Multiplication
-      1. Methods
-        1. Multiply 2 numbers
-        2. Multiply list of numbers
-    4. Division
-      1. Methods
-        1. Divide 2 numbers
-        2. Divide list of numbers
-    5. Square root
-      1. Methods
-        1. Square root 2 numbers
-        2. Square root list of numbers
-    6. Square
-      1. Methods
-        1. Square root 2 numbers
-        2. Square root list of numbers
-    7. Simple random sampling
-      1. Methods
-        1. 2 numbers
-        2. List of numbers
-    8. Confidence Interval for a sample
-      1. Methods
-        1. 2 numbers
-        2. List of numbers
-    9. Margin of error
-      1. Methods
-        1. 2 numbers
-        2. List of numbers 
-    I. Cochran's sample size formula - call static cochran&#39;s sample size method
-      1. Methods
-        1. 2 numbers
-        2. List of numbers
-    II. How to find a sample size given a confidence interval and width (unknown population standard 
-      deviation) - call static confidence interval method
-      1. Methods
-        1. 2 numbers
-        2. List of numbers
-    III. Mean
-      1. Methods
-        1. 2 numbers
-        2. List of numbers
-    IV. Median
-      1. Methods
-        1. 2 numbers
-        2. List of numbers
-    V. Mode
-      1. Methods
-        1. 2 numbers
-        2. List of numbers
-    VI. Variance
-      1. Methods
-        1. 2 numbers
-        2. List of numbers
-    VII. Standard deviation
-      1. Methods
-        1. 2 numbers
-        2. List of numbers
-    VII. Z- Score
-      1. Methods
-        1. 2 numbers
-        2. List of numbers
