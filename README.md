@@ -59,8 +59,8 @@ Random Generator Functions
       3. Mode
       4. Variance
       5. Standard deviation
-      6. Z- Score
-    4. Random Generator Functions
+      6. Z- Score  
+4. Random Generator Functions
       1. Random generator: Generate a random number without a seed between a range of two numbers - Both 
       Integer and Decimal
       2. Random generator with Seed: Generate a random number with a seed between a range of two numbers - 
@@ -94,7 +94,7 @@ Random Generator Functions
       5. Standard deviation  
       6. Z- Score  
 
-Random Generator Function
+Random Generator Function  
       1. Random generator: Generate a random number without a seed between a range of two numbers - Both 
       Integer and Decimal  
       2. Random generator with Seed: Generate a random number with a seed between a range of two numbers - 
