@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b424e94e-5538-491c-aa05-099ac6b39773" name="Default Changelist" comment="Featre: Added Cochran Sample, needs fixing.  Revisit ASAP" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Subtraction" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1eNmYeYcEWAHdXOBTe893amLITP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Stats" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dropbox\homework\StatisticalCalculator2\Stats" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="" />
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b424e94e-5538-491c-aa05-099ac6b39773" name="Default Changelist" comment="" />
+      <created>1594170473091</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594170473091</updated>
+      <workItem from="1594170474567" duration="38037000" />
+    </task>
+    <task id="LOCAL-00007" summary="Feature: Updated Calculator.py file with new code and comments.">
+      <created>1594176054292</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1594176054292</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Feature: Created ConfidenceInterval_Upper.py file, needs updating.">
+      <created>1594176328562</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1594176328562</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Feature: Created MODE.py -- OK">
+      <created>1594176919438</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1594176919438</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Feature: Created MODE.py -- OK">
+      <created>1594177324319</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1594177324319</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Feature: Created MODE.py -- OK">
+      <created>1594177369506</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1594177369506</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Feature: Created MODE.py -- OK 2">
+      <created>1594177385336</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1594177385336</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Feature: Create MODE.py -- OK 2">
+      <created>1594177431855</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1594177431855</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Feature: Create Proportion.py -- OK">
+      <created>1594177681916</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1594177681916</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Feature: Create Variance.py -- OK">
+      <created>1594177815530</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1594177815530</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Feature: Create Variance.py -- OK 2">
+      <created>1594177871371</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1594177871371</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Feature: Statistics Calculator -- First Pass">
+      <created>1594178251702</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1594178251702</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Update: Stats Calculator, rebuild from scratch.  Pass 1">
+      <created>1594228824311</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1594228824311</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Update: Refactored Statistics dir to Stats">
+      <created>1594229200533</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1594229200533</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Feature: Added Subtraction.py to Calculator">
+      <created>1594229394057</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1594229394057</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Fix: Removed problematic line of code. Fixed, works.">
+      <created>1594232196177</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1594232196177</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Fix: Refactored fileneames removed spaces">
+      <created>1594232408314</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1594232408314</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Fix: CSVReader 3, had to update code, error fixed. works.">
+      <created>1594232538979</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1594232538979</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Fix: Refactored Fileutilities folder, removed space.">
+      <created>1594232624066</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1594232624066</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Fix: Line had two references to statistics, replaced with &quot;self&quot;">
+      <created>1594233749873</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1594233749873</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Fix: Addition module had a few errors, leftover from old calculator project. Fixed, Test PASS">
+      <created>1594233997010</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1594233997010</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Fix: Updated data">
+      <created>1594234143730</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1594234143730</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Fix: Updated Statistics test file, still has error.">
+      <created>1594234428994</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1594234428994</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Fix: Updated Statistics test file, stats csv was missing for dir, fixed, Test PASSES ok">
+      <created>1594234558453</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1594234558453</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Fix: Commented out MEDIAN, must revisit.  TypeError: 'getFileData' object is not iterable">
+      <created>1594236266583</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1594236266583</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Feature: Added MODE to module">
+      <created>1594236712190</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1594236712190</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Fix:  I had an indentation error, and the csv I had to import to dir.">
+      <created>1594236951161</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1594236951161</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Fix: Added Mean, Median, Mode defs to Statistics.py">
+      <created>1594237121795</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1594237121796</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Fix: Fixed Mode as best I could, still has an error.  Revisit later.">
+      <created>1594237307343</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1594237307343</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Fix: Fixed error with mode, I had to define columns in MyTestCase.  New issue arose. Fixing.">
+      <created>1594237478598</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1594237478598</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Fix: Fixed previous error, I was missing &quot;.data&quot; after the parenth">
+      <created>1594237773661</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1594237773661</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Fix: Fixed previous error, header rows value mismatch. Fixed.">
+      <created>1594237870018</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1594237870018</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Fix: Fixed previous error.  New error at line34, see comment. Revist later.">
+      <created>1594238405494</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1594238405494</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Feature: Added Standard Deviation to Test and Statistics.py">
+      <created>1594238594425</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1594238594425</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Fix: Refactored stats anwers file.">
+      <created>1594239018217</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1594239018217</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Fix: pprint wasn't imported.  Fixed.">
+      <created>1594239203950</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1594239203950</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Feature: Added Proportion to StatTest">
+      <created>1594239897040</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1594239897040</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Fix:  Same issue with Proportion, &quot;Module object not callable&quot;  Advise">
+      <created>1594240043481</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1594240043481</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Feature:  Added correlation to test">
+      <created>1594241016382</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1594241016382</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Fix:  Correlation has an issue, please revist.">
+      <created>1594241496907</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1594241496907</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Fix: Updated Zscore">
+      <created>1594244140203</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1594244140203</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Fix: Fixed error with Median, test PASS">
+      <created>1594247074758</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1594247074758</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Fix: Fixed Mean, Pass">
+      <created>1594249593717</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1594249593717</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Fix: Fixed Median">
+      <created>1594251013436</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1594251013436</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Fix: Fixed Median.py, had a division error">
+      <created>1594251525068</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1594251525069</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Fix: Fixed Variance.py">
+      <created>1594255626587</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1594255626587</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Fix: StandardDev, test PASS">
+      <created>1594256261808</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1594256261808</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Feature: Added Zscore to Test">
+      <created>1594257431973</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1594257431973</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Fix: Updated ZScore - Still having issue of &quot;matching list&quot; -  Revisit ASAP">
+      <created>1594260019558</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1594260019558</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Featre: Added Cochran Sample, needs fixing.  Revisit ASAP">
+      <created>1594263466477</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1594263466477</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fix:  I had an indentation error, and the csv I had to import to dir." />
+    <MESSAGE value="Fix: Added Mean, Median, Mode defs to Statistics.py" />
+    <MESSAGE value="Fix: Fixed Mode as best I could, still has an error.  Revisit later." />
+    <MESSAGE value="Fix: Fixed error with mode, I had to define columns in MyTestCase.  New issue arose. Fixing." />
+    <MESSAGE value="Fix: Fixed previous error, made global call for test_data, new error. Fixing." />
+    <MESSAGE value="Fix: Fixed previous error, I was missing &quot;.data&quot; after the parenth" />
+    <MESSAGE value="Fix: Fixed previous error, header rows value mismatch. Fixed." />
+    <MESSAGE value="Fix: Fixed previous error.  New error at line34, see comment. Revist later." />
+    <MESSAGE value="Feature: Added Standard Deviation to Test and Statistics.py" />
+    <MESSAGE value="Fix: Refactored stats anwers file." />
+    <MESSAGE value="Fix: pprint wasn't imported.  Fixed." />
+    <MESSAGE value="Feature: Added Proportion to StatTest" />
+    <MESSAGE value="Fix:  Same issue with Proportion, &quot;Module object not callable&quot;  Advise" />
+    <MESSAGE value="Feature:  Added correlation to test" />
+    <MESSAGE value="Fix:  Correlation has an issue, please revist." />
+    <MESSAGE value="Fix: Updated Zscore" />
+    <MESSAGE value="Fix: Fixed error with Median, test PASS" />
+    <MESSAGE value="Fix: Fixed Mean, Pass" />
+    <MESSAGE value="Fix: Fixed Median" />
+    <MESSAGE value="Fix: Fixed Median.py, had a division error" />
+    <MESSAGE value="Fix: Fixed Variance.py" />
+    <MESSAGE value="Fix: StandardDev, test PASS" />
+    <MESSAGE value="Feature: Added Zscore to Test" />
+    <MESSAGE value="Fix: Updated ZScore - Still having issue of &quot;matching list&quot; -  Revisit ASAP" />
+    <MESSAGE value="Featre: Added Cochran Sample, needs fixing.  Revisit ASAP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Featre: Added Cochran Sample, needs fixing.  Revisit ASAP" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="225" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594228915441">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="225" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1594228915441" />
+    <state x="532" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594260067947">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="532" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1594260067947" />
+    <state x="550" y="154" key="FileChooserDialogImpl" timestamp="1594228913535">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="550" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594228913535" />
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1594255676336">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594255676336" />
+    <state x="579" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594228716810">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="579" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1594228716810" />
+    <state x="661" y="110" key="git4idea.branch.GitSmartOperationDialog" timestamp="1594228708446">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="661" y="110" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.824@0.0.1536.824" timestamp="1594228708446" />
+    <state x="458" y="202" key="git4idea.merge.GitPullDialog" timestamp="1594263480140">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="458" y="202" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1594263480140" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1594237231928">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1594237231928" />
+  </component>
+</project>
