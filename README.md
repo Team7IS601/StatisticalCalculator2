@@ -19,19 +19,18 @@ Descriptive Stat Functions
 [Z-Score]
 
 Population Sampling Functions    
-[Simple random sampling]  
-[Confidence interval for a sample]  
+[Random sampling]  
+[Confidence interval]  
 [Margin of error]  
-[Cochran's sample size formula]  
+[Sample size formula]  
 
 Random Generator Functions  
 [Random seed]  
 [list generator]  
 [random item]  
-[n items without seed]  
-[get margin of error]  
-[get cochrans sample]  
-[get sample ci_width]  
+[items without seed]  
+[margin of error]  
+[cochrans sample]  
 
 
 
