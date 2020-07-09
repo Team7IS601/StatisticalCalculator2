@@ -29,7 +29,6 @@ Random seed
 list generator  
 random item  
 items without seed  
-margin of error  
 cochrans sample  
 
 
