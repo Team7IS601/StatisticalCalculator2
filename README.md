@@ -9,7 +9,7 @@ https://github.com/Team7IS601/StatisticalCalculator2/projects/1?fullscreen=true
 
 # Project Task List
 
-# Project Outline
+# Program Outline
 1. Calculator Object
   1. Properties
     1. Result
