@@ -7,6 +7,7 @@ from Stats.StandardDeviation import standardDev
 from Stats.CorrelationCoefficient import correlation
 from Stats.Variance import variance
 from Stats.ZScore import zscore
+from Stats.CochranSample import sample
 
 class Statistics(Calculator):
     data = []
@@ -49,4 +50,8 @@ class Statistics(Calculator):
 
     def p_value(self, data):
         self.result = pvalue(data)
+        return self.result
+
+    def cochran(self, data):
+        self.result = sample(data)
         return self.result

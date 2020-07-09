@@ -17,4 +17,5 @@ def zscore(num):
         z = division(standardDev_var, neg)
         ZScore_var.append(z)
 
+
     return ZScore_var

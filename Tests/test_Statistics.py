@@ -15,6 +15,7 @@ class MyTestCase(unittest.TestCase):
         self.test_data_sample = getFileData('Tests/Data/TestDataSample.csv').data
         self.test_data_variance = getFileData('Tests/Data/Test_Data_Variance.csv').data
         self.test_data_standardDev = getFileData('Tests/Data/Test_Data_StandardDeviation.csv').data
+        self.test_data_cochran_sample = getFileData('Tests/Data/Test_Data_Cochran_Sample.csv').data
         self.test_data_zscore = getFileData('Tests/Data/Test_Data_ZScore.csv').data
         self.test_answers_zscore = getFileData('Tests/Data/Test_Data_ZScore_Answers.csv').data
         # self.column1 = [int(row['Value 1']) for row in self.test_data]
@@ -82,7 +83,16 @@ class MyTestCase(unittest.TestCase):
             self.assertEqual(self.statistics.standardDev(data), float(result))
         print("Standard Deviation Test Passed")
 
-
+    # def test_cochran_sample_statistics(self):
+    #     for row in self.test_data_cochran_sample:
+    #         result = row["Proportions"]
+    #         data = []
+    #         keys = row.keys()
+    #         for k in keys:
+    #             if k != "Proportions":
+    #                 data.append(row[k])
+    #         self.assertEqual(self.statistics.cochran_sample(data), float(result))
+    #     print("Cochran Sample Test Passed")
 
 ##AssertionError: Lists differ: [-1.0218610562587904, 0.19360663994374114, -0.3[154 chars]4114] != [-1.02858502772493, 0.187700369612389, -0.32092[138 chars]2389]
     # def test_zscore_statistics(self):
