@@ -8,6 +8,33 @@ Created by: Adam Adamson, Michael Maddaloni, and Ryan Melnik
 https://github.com/Team7IS601/StatisticalCalculator2/projects/1?fullscreen=true
 
 # Project Task List
+The program extends from the calculator class that already includes simple math operatoins. This is a breakdown of the statistics methods.
+
+Descriptive Stat Functions    
+[Mean](https://github.com/Team7IS601/miniproject1/tree/master/Section%201/Platform%20Software)  
+[Median](https://github.com/Team7IS601/StatisticalCalculator2/blob/master/References/Median.md)  
+[Mode](https://github.com/Team7IS601/miniproject1/tree/master/Section%203/Productivity%20and%20Competitiveness)  
+[Variance](https://github.com/Team7IS601/miniproject1/tree/master/Section%204/Sources)  
+[Standard deviation](https://github.com/Team7IS601/miniproject1/tree/master/Section%205)  
+[Z-Score]
+
+Population Sampling Functions    
+[Simple random sampling]  
+[Confidence interval for a sample]  
+[Margin of error]  
+[Cochran's sample size formula]  
+
+Random Generator Functions  
+[Random seed]  
+[list generator]  
+[random item]  
+[n items without seed]  
+[get margin of error]  
+[get cochrans sample]  
+[get sample ci_width]  
+
+
+
 
 # Program Outline
 1. Calculator Object
