@@ -11,26 +11,26 @@ https://github.com/Team7IS601/StatisticalCalculator2/projects/1?fullscreen=true
 The program extends from the calculator class that already includes simple math operatoins. This is a breakdown of the statistics methods.
 
 Descriptive Stat Functions    
-[Mean]  
-[Median]
-[Mode]  
-[Variance]
-[Standard deviation] 
-[Z-Score]
+Mean  
+Median  
+Mode    
+Variance  
+Standard deviation  
+Z-Score  
 
 Population Sampling Functions    
-[Random sampling]  
-[Confidence interval]  
-[Margin of error]  
-[Sample size formula]  
+Random sampling  
+Confidence interval    
+Margin of error    
+Sample size formula  
 
 Random Generator Functions  
-[Random seed]  
-[list generator]  
-[random item]  
-[items without seed]  
-[margin of error]  
-[cochrans sample]  
+Random seed    
+list generator  
+random item  
+items without seed  
+margin of error  
+cochrans sample  
 
 
 
