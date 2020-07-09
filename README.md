@@ -45,7 +45,7 @@ https://github.com/Team7IS601/StatisticalCalculator2/projects/1?fullscreen=true
 
   1. Math Operations (Static Class)
     1. Methods
-      1. Addition -\&gt; Calls addition static method from math operations
+      1. Addition -; Calls addition static method from math operations
       2. Subtraction -\&gt; Call subtraction static method from Math operations
       3. Multiplication - call multiplication static method form Math operations
       4. Division - call division static method from Math operations
@@ -112,7 +112,7 @@ https://github.com/Team7IS601/StatisticalCalculator2/projects/1?fullscreen=true
         1. 2 numbers
         2. List of numbers
 
-    1. Cochran&#39;s sample size formula - call static cochran&#39;s sample size method
+    1. Cochran's sample size formula - call static cochran&#39;s sample size method
       1. Methods
         1. 2 numbers
         2. List of numbers
