@@ -117,8 +117,7 @@ Random Generator Function
     9. Margin of error
       1. Methods
         1. 2 numbers
-        2. List of numbers
-        
+        2. List of numbers 
     I. Cochran's sample size formula - call static cochran&#39;s sample size method
       1. Methods
         1. 2 numbers
