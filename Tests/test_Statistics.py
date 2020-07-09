@@ -69,16 +69,16 @@ class MyTestCase(unittest.TestCase):
             self.assertEqual(self.statistics.variance(data), float(result))
         print("Variance Test Passed")
 
-    # def test_standard_deviation_statistics(self):
-    #     for row in self.test_data_standardDev:
-    #         result = row["StandardDev"]
-    #         data = []
-    #         keys = row.keys()
-    #         for k in keys:
-    #             if k != "StandardDev":
-    #                 data.append(row[k])
-    #         self.assertEqual(self.statistics.standardDev(data), float(result))
-    #     print("Standard Deviation Test Passed")
+    def test_standard_deviation_statistics(self):
+        for row in self.test_data_standardDev:
+            result = row["StandardDev"]
+            data = []
+            keys = row.keys()
+            for k in keys:
+                if k != "StandardDev":
+                    data.append(row[k])
+            self.assertEqual(self.statistics.standardDev(data), float(result))
+        print("Standard Deviation Test Passed")
 
 
 
