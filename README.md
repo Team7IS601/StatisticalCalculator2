@@ -40,7 +40,6 @@ Random Generator Functions
   1. Properties
     1. Result
   2. Instance Class(s)
-    1. Methods
       1. Addition- Calls addition static method from math operations
       2. Subtraction - Call subtraction static method from Math operations
       3. Multiplication - call multiplication static method form Math operations
