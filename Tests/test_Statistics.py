@@ -15,6 +15,8 @@ class MyTestCase(unittest.TestCase):
         self.test_data_sample = getFileData('Tests/Data/TestDataSample.csv').data
         self.test_data_variance = getFileData('Tests/Data/Test_Data_Variance.csv').data
         self.test_data_standardDev = getFileData('Tests/Data/Test_Data_StandardDeviation.csv').data
+        self.test_data_zscore = getFileData('Tests/Data/Test_Data_ZScore.csv').data
+        self.test_answers_zscore = getFileData('Tests/Data/Test_Data_ZScore_Answers.csv').data
         # self.column1 = [int(row['Value 1']) for row in self.test_data]
         # self.column2 = [int(row['Value 2']) for row in self.test_data]
         # self.test_zscore_answers = getFileData('Tests/Data/TestZScoresAnswers.csv').data
@@ -82,15 +84,17 @@ class MyTestCase(unittest.TestCase):
 
 
 
-    # NameError: name
-    # 'zscoreanswers' is not defined
-    #
-    # def test_correlation_statistics(self):
-    #     for row in self.test_answer:
-    #         pprint(row['correlation'])
-    #     self.assertEqual(self.statistics.correlation_coefficient(self.column1, self.column2),
-    #                      float(row['correlation']))
-    #     self.assertEqual(self.statistics.result, float(row['correlation']))
+
+    def test_correlation_statistics(self):
+        for row in self.test_data_zscore:
+            result = row["ZScore"]
+            data = []
+            keys = row.keys()
+            for k in keys:
+                if k != "ZScore":
+                    data.append(row[k])
+            self.assertEqual(self.statistics.zscore(data), float(result))
+        print("Z-Score Test Passed")
 
     # def test_pvalue_statistics(self):
     #     self.assertEqual(self.statistics.p_value(self.column1), self.column_zscore)
