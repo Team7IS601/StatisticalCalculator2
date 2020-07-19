@@ -19,12 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b424e94e-5538-491c-aa05-099ac6b39773" name="Default Changelist" comment="Fix: Moved file again">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_7_2020_10_18_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_7_2020_11_15_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+    <list default="true" id="b424e94e-5538-491c-aa05-099ac6b39773" name="Default Changelist" comment="Task: Created Modules for Random Generators">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_Calculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_RandomGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_RandomGenerator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,13 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594170473091</updated>
       <workItem from="1594170474567" duration="43060000" />
-    </task>
-    <task id="LOCAL-00014" summary="Feature: Create Proportion.py -- OK">
-      <created>1594177681916</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1594177681916</updated>
+      <workItem from="1595127605844" duration="1182000" />
     </task>
     <task id="LOCAL-00015" summary="Feature: Create Variance.py -- OK">
       <created>1594177815530</created>
@@ -438,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594777014272</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Task: Created Modules for Random Generators">
+      <created>1595127893493</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1595127893493</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,9 +451,9 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix: Fixed previous error.  New error at line34, see comment. Revist later." />
     <MESSAGE value="Feature: Added Standard Deviation to Test and Statistics.py" />
     <MESSAGE value="Fix: Refactored stats anwers file." />
     <MESSAGE value="Fix: pprint wasn't imported.  Fixed." />
@@ -481,7 +478,8 @@
     <MESSAGE value="Feature: Added some code to RandomGenerator.py" />
     <MESSAGE value="Fix: Moved ConfidenceInterval_Upper.py" />
     <MESSAGE value="Fix: Moved file again" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix: Moved file again" />
+    <MESSAGE value="Task: Created Modules for Random Generators" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task: Created Modules for Random Generators" />
   </component>
   <component name="WindowStateProjectService">
     <state x="225" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594228915441">
