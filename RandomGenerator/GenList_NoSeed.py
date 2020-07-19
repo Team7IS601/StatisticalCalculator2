@@ -1,4 +1,3 @@
-#Generate a random number without a seed between a range of two numbers - Both Integer and Decimal
 from random import randint
 import random
 
@@ -13,7 +12,6 @@ class GenListNoSeed:
             series.append(number)
         return series
 
-
     def list_float(x, y, ranges):
         series = []
 
@@ -24,3 +22,5 @@ class GenListNoSeed:
 
 
 print(GenListNoSeed.list_int(4.4,9.7,10))
+
+
