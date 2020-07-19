@@ -21,6 +21,6 @@ class GenListNoSeed:
         return series
 
 
-print(GenListNoSeed.list_int(4.4,9.7,10))
+# print(GenListNoSeed.list_int(4.4,9.7,10))
 
 

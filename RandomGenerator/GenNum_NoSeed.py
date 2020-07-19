@@ -13,4 +13,4 @@ class GenNumNoSeed:
     def num_float(x, y):
         return random.uniform(x, y)
 
-print(GenNumNoSeed.num_int(3,8))
+# print(GenNumNoSeed.num_int(3,8))

@@ -13,4 +13,4 @@ class GenNumWithSeed:
         random.seed(nut)
         return random.uniform(x, y)
 
-print(GenNumWithSeed.num_int(3,8,10))
+# print(GenNumWithSeed.num_int(3,8,10))
