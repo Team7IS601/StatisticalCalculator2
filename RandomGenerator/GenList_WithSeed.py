@@ -4,6 +4,7 @@ import random
 
 
 class GenListWithSeed:
+    @staticmethod
     def list_int (x, y, ranges, nut):
         if isinstance(x, float):
             return GenListWithSeed.list_float(x, y, ranges, nut)
@@ -14,6 +15,7 @@ class GenListWithSeed:
             series.append(number)
         return series
 
+    @staticmethod
     def list_float(x, y, ranges, nut):
         series = []
         seed(nut)
@@ -21,8 +23,4 @@ class GenListWithSeed:
             number = random.uniform(x, y)
             series.append(number)
         return series
-
-
-print(GenListWithSeed.list_float(4,9,10,2))
-
 
