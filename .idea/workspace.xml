@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b424e94e-5538-491c-aa05-099ac6b39773" name="Default Changelist" comment="Task: Created Modules for Random Generators">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b424e94e-5538-491c-aa05-099ac6b39773" name="Default Changelist" comment="Fix: Fixed, Gen List No Seed. Passed Individual Test, OK">
+      <change beforePath="$PROJECT_DIR$/RandomGenerator/GenList_WithSeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/RandomGenerator/GenList_WithSeed.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,21 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594170473091</updated>
       <workItem from="1594170474567" duration="43060000" />
-      <workItem from="1595127605844" duration="1182000" />
-    </task>
-    <task id="LOCAL-00015" summary="Feature: Create Variance.py -- OK">
-      <created>1594177815530</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1594177815530</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Feature: Create Variance.py -- OK 2">
-      <created>1594177871371</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1594177871371</updated>
+      <workItem from="1595127605844" duration="1519000" />
     </task>
     <task id="LOCAL-00017" summary="Feature: Statistics Calculator -- First Pass">
       <created>1594178251702</created>
@@ -435,7 +421,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595127893493</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Task: Created GenList No Seed, Tested Module By Itself, somethings wrong, fixing">
+      <created>1595200569853</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1595200569853</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Fix: Fixed, Gen List No Seed. Passed Individual Test, OK">
+      <created>1595200664700</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1595200664700</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,8 +454,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feature: Added Standard Deviation to Test and Statistics.py" />
-    <MESSAGE value="Fix: Refactored stats anwers file." />
     <MESSAGE value="Fix: pprint wasn't imported.  Fixed." />
     <MESSAGE value="Feature: Added Proportion to StatTest" />
     <MESSAGE value="Fix:  Same issue with Proportion, &quot;Module object not callable&quot;  Advise" />
@@ -479,7 +477,9 @@
     <MESSAGE value="Fix: Moved ConfidenceInterval_Upper.py" />
     <MESSAGE value="Fix: Moved file again" />
     <MESSAGE value="Task: Created Modules for Random Generators" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task: Created Modules for Random Generators" />
+    <MESSAGE value="Task: Created GenList No Seed, Tested Module By Itself, somethings wrong, fixing" />
+    <MESSAGE value="Fix: Fixed, Gen List No Seed. Passed Individual Test, OK" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: Fixed, Gen List No Seed. Passed Individual Test, OK" />
   </component>
   <component name="WindowStateProjectService">
     <state x="225" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594228915441">
