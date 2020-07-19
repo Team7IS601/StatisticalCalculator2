@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b424e94e-5538-491c-aa05-099ac6b39773" name="Default Changelist" comment="Fix: Fixed, Gen List No Seed. Passed Individual Test, OK">
-      <change beforePath="$PROJECT_DIR$/RandomGenerator/GenList_WithSeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/RandomGenerator/GenList_WithSeed.py" afterDir="false" />
-    </list>
+    <list default="true" id="b424e94e-5538-491c-aa05-099ac6b39773" name="Default Changelist" comment="Fix: Fixed something on this. Fine now." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,28 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594170473091</updated>
       <workItem from="1594170474567" duration="43060000" />
-      <workItem from="1595127605844" duration="1519000" />
-    </task>
-    <task id="LOCAL-00017" summary="Feature: Statistics Calculator -- First Pass">
-      <created>1594178251702</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1594178251702</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Update: Stats Calculator, rebuild from scratch.  Pass 1">
-      <created>1594228824311</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1594228824311</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Update: Refactored Statistics dir to Stats">
-      <created>1594229200533</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1594229200533</updated>
+      <workItem from="1595127605844" duration="1875000" />
     </task>
     <task id="LOCAL-00020" summary="Feature: Added Subtraction.py to Calculator">
       <created>1594229394057</created>
@@ -435,7 +412,28 @@
       <option name="project" value="LOCAL" />
       <updated>1595200664700</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Task: Populatd Gen List With Seed, individual test printed OK.">
+      <created>1595200809137</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1595200809137</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Task: Populated Gen Number No Seed.  Module Tests OK.">
+      <created>1595201037688</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1595201037688</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Fix: Fixed something on this. Fine now.">
+      <created>1595201079742</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1595201079742</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,9 +452,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix: pprint wasn't imported.  Fixed." />
-    <MESSAGE value="Feature: Added Proportion to StatTest" />
-    <MESSAGE value="Fix:  Same issue with Proportion, &quot;Module object not callable&quot;  Advise" />
     <MESSAGE value="Feature:  Added correlation to test" />
     <MESSAGE value="Fix:  Correlation has an issue, please revist." />
     <MESSAGE value="Fix: Updated Zscore" />
@@ -479,7 +474,10 @@
     <MESSAGE value="Task: Created Modules for Random Generators" />
     <MESSAGE value="Task: Created GenList No Seed, Tested Module By Itself, somethings wrong, fixing" />
     <MESSAGE value="Fix: Fixed, Gen List No Seed. Passed Individual Test, OK" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix: Fixed, Gen List No Seed. Passed Individual Test, OK" />
+    <MESSAGE value="Task: Populatd Gen List With Seed, individual test printed OK." />
+    <MESSAGE value="Task: Populated Gen Number No Seed.  Module Tests OK." />
+    <MESSAGE value="Fix: Fixed something on this. Fine now." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: Fixed something on this. Fine now." />
   </component>
   <component name="WindowStateProjectService">
     <state x="225" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594228915441">
