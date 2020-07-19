@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b424e94e-5538-491c-aa05-099ac6b39773" name="Default Changelist" comment="Featre: Added Cochran Sample, needs fixing.  Revisit ASAP" />
+    <list default="true" id="b424e94e-5538-491c-aa05-099ac6b39773" name="Default Changelist" comment="Fix: Moved file again">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_7_2020_10_18_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_7_2020_11_15_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_Calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_RandomGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_RandomGenerator.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +59,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Stats" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dropbox\homework\StatisticalCalculator2\Tests" />
+      <recent name="D:\Dropbox\homework\StatisticalCalculator2\Stats" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Dropbox\homework\StatisticalCalculator2\Stats" />
     </key>
@@ -83,56 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594170473091</updated>
-      <workItem from="1594170474567" duration="38037000" />
-    </task>
-    <task id="LOCAL-00007" summary="Feature: Updated Calculator.py file with new code and comments.">
-      <created>1594176054292</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1594176054292</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Feature: Created ConfidenceInterval_Upper.py file, needs updating.">
-      <created>1594176328562</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1594176328562</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Feature: Created MODE.py -- OK">
-      <created>1594176919438</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1594176919438</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Feature: Created MODE.py -- OK">
-      <created>1594177324319</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1594177324319</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Feature: Created MODE.py -- OK">
-      <created>1594177369506</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1594177369506</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Feature: Created MODE.py -- OK 2">
-      <created>1594177385336</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1594177385336</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Feature: Create MODE.py -- OK 2">
-      <created>1594177431855</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1594177431855</updated>
+      <workItem from="1594170474567" duration="43060000" />
     </task>
     <task id="LOCAL-00014" summary="Feature: Create Proportion.py -- OK">
       <created>1594177681916</created>
@@ -428,7 +389,56 @@
       <option name="project" value="LOCAL" />
       <updated>1594263466477</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Fix: Pycharm disconnected from Git somehow. Syncing, test.">
+      <created>1594264000650</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1594264000650</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Feature: Created Confidence Interval module">
+      <created>1594266129696</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1594266129696</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Feature: Created Random Generator Module">
+      <created>1594266154580</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1594266154580</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Feature: Created Margin of Error Module">
+      <created>1594266208791</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1594266208791</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Feature: Added some code to RandomGenerator.py">
+      <created>1594768474314</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1594768474314</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Fix: Moved ConfidenceInterval_Upper.py">
+      <created>1594768518553</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1594768518554</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Fix: Moved file again">
+      <created>1594777014272</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1594777014272</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,13 +456,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix:  I had an indentation error, and the csv I had to import to dir." />
-    <MESSAGE value="Fix: Added Mean, Median, Mode defs to Statistics.py" />
-    <MESSAGE value="Fix: Fixed Mode as best I could, still has an error.  Revisit later." />
-    <MESSAGE value="Fix: Fixed error with mode, I had to define columns in MyTestCase.  New issue arose. Fixing." />
-    <MESSAGE value="Fix: Fixed previous error, made global call for test_data, new error. Fixing." />
-    <MESSAGE value="Fix: Fixed previous error, I was missing &quot;.data&quot; after the parenth" />
-    <MESSAGE value="Fix: Fixed previous error, header rows value mismatch. Fixed." />
     <MESSAGE value="Fix: Fixed previous error.  New error at line34, see comment. Revist later." />
     <MESSAGE value="Feature: Added Standard Deviation to Test and Statistics.py" />
     <MESSAGE value="Fix: Refactored stats anwers file." />
@@ -471,7 +474,14 @@
     <MESSAGE value="Feature: Added Zscore to Test" />
     <MESSAGE value="Fix: Updated ZScore - Still having issue of &quot;matching list&quot; -  Revisit ASAP" />
     <MESSAGE value="Featre: Added Cochran Sample, needs fixing.  Revisit ASAP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Featre: Added Cochran Sample, needs fixing.  Revisit ASAP" />
+    <MESSAGE value="Fix: Pycharm disconnected from Git somehow. Syncing, test." />
+    <MESSAGE value="Feature: Created Confidence Interval module" />
+    <MESSAGE value="Feature: Created Random Generator Module" />
+    <MESSAGE value="Feature: Created Margin of Error Module" />
+    <MESSAGE value="Feature: Added some code to RandomGenerator.py" />
+    <MESSAGE value="Fix: Moved ConfidenceInterval_Upper.py" />
+    <MESSAGE value="Fix: Moved file again" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: Moved file again" />
   </component>
   <component name="WindowStateProjectService">
     <state x="225" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594228915441">
@@ -486,10 +496,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="550" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594228913535" />
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1594255676336">
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1594266386021">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594255676336" />
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594266386021" />
     <state x="579" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594228716810">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -498,10 +508,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="661" y="110" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.824@0.0.1536.824" timestamp="1594228708446" />
-    <state x="458" y="202" key="git4idea.merge.GitPullDialog" timestamp="1594263480140">
+    <state x="458" y="202" key="git4idea.merge.GitPullDialog" timestamp="1594266354867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="458" y="202" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1594263480140" />
+    <state x="458" y="202" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1594266354867" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1594237231928">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
